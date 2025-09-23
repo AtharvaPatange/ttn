@@ -1,3 +1,6 @@
 serviceAccountKey.json
 node_modules/
 *.log
+.env
+.env.local
+render-env-values.txt
