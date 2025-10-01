@@ -32,7 +32,7 @@ async function testWebhook() {
     console.log('🧪 Testing TTN webhook endpoint...');
     console.log('Sending test payload:', JSON.stringify(testPayload, null, 2));
     
-    const response = await fetch('http://localhost:3000/ttn', {
+    const response = await fetch('https://ttn.onrender.com/ttn', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
